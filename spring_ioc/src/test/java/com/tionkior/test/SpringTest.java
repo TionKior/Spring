@@ -1,0 +1,29 @@
+package com.tionkior.test;
+
+import com.tionkior.dao.UserDao;
+import org.junit.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+/**
+ * @ClassName : SpringTest
+ * @Author : TionKior
+ * @Date : 2021/6/4 9:43
+ * @Version : V1.0
+ * @Description :
+ */
+
+public class SpringTest {
+
+    @Test
+    //测试scope属性
+    public void test1() {
+
+        ClassPathXmlApplicationContext app = new ClassPathXmlApplicationContext("applicationContext.xml");
+
+        UserDao userDao1 = (UserDao) app.getBean("userDao");
+        System.out.println(userDao1);
+        //app.close();
+    }
+
+}
