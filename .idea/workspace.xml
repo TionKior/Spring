@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5c16140-6b69-4b7c-a429-3c437be7f74b" name="默认变更列表" comment="" />
+    <list default="true" id="e5c16140-6b69-4b7c-a429-3c437be7f74b" name="默认变更列表" comment="">
+      <change afterPath="$PROJECT_DIR$/spring_ioc_anno/src/main/java/com/tionkior/config/DataSourceConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_anno/src/main/java/com/tionkior/config/SpringConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_anno/src/main/java/com/tionkior/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_anno/src/main/java/com/tionkior/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_anno/src/main/java/com/tionkior/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_anno/src/main/java/com/tionkior/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_anno/src/main/java/com/tionkior/web/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_anno/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_anno/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_anno/src/test/java/com/tionkior/test/DataSourceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_anno/src/test/java/com/tionkior/test/SpringJunitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_ioc_anno/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_ioc_anno/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,19 +102,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SpringTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Spring" />
       <extension name="coverage">
@@ -139,6 +139,7 @@
       <workItem from="1622786193900" duration="25000" />
       <workItem from="1622849568565" duration="1000000" />
       <workItem from="1622851086426" duration="109000" />
+      <workItem from="1622870678407" duration="32000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Spring练习">
       <created>1622769486097</created>
