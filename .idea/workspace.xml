@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e5c16140-6b69-4b7c-a429-3c437be7f74b" name="默认变更列表" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="spring-beans.schema" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache-maven-3.8.1\repository" />
+        <option name="mavenHome" value="D:/apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.8.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1tSj3f6rGDGoKJFEVIea0BVn6P0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring_ioc" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.14534885" />
+    <property name="project.structure.side.proportion" value="0.17035776" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\TionKior\Desktop\Spring\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.UserController">
+    <configuration name="UserController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tionkior.demo.UserController" />
+      <module name="Spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tionkior.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDaoDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tionkior.demo.UserDaoDemo" />
+      <module name="Spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tionkior.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tionkior.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tionkior.test" />
+      <option name="MAIN_CLASS_NAME" value="com.tionkior.test.SpringTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.UserController" />
+        <item itemvalue="应用程序.UserDaoDemo" />
+        <item itemvalue="JUnit.SpringTest.test1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="e5c16140-6b69-4b7c-a429-3c437be7f74b" name="默认变更列表" comment="" />
+      <created>1622769187371</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622769187371</updated>
+      <workItem from="1622769188681" duration="7979000" />
+      <workItem from="1622778277339" duration="7812000" />
+      <workItem from="1622786193900" duration="25000" />
+      <workItem from="1622849568565" duration="1000000" />
+      <workItem from="1622851086426" duration="109000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: Spring练习">
+      <created>1622769486097</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1622769486097</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: Spring练习">
+      <created>1622771582343</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1622771582343</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: Spring练习,Bean的创建时机">
+      <created>1622772458605</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1622772458605</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: Spring练习,Bean的生命周期">
+      <created>1622773321709</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1622773321709</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: Spring练习,Bean的依赖注入">
+      <created>1622776442611</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1622776442611</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: Spring练习,Bean的依赖注入">
+      <created>1622779983186</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1622779983186</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: Spring练习,Bean的依赖注入">
+      <created>1622780606340</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1622780606340</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: Spring练习,Bean的依赖注入">
+      <created>1622780995038</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1622780995038</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: Spring练习,Bean的依赖注入">
+      <created>1622785816061</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1622785816061</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: Spring练习" />
+    <MESSAGE value="feat: Spring练习,Bean的创建时机" />
+    <MESSAGE value="feat: Spring练习,Bean的生命周期" />
+    <MESSAGE value="feat: Spring练习,Bean的依赖注入" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Spring练习,Bean的依赖注入" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
