@@ -21,7 +21,6 @@ public class UserController {
     public String save() {
         System.out.println("Controller save running...");
         return "success";
-
     }
 
 }
