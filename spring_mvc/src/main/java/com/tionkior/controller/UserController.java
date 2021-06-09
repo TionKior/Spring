@@ -27,6 +27,17 @@ import java.io.IOException;
 @RequestMapping("/user")
 public class UserController {
 
+    @RequestMapping(value = "/quick10")
+    @ResponseBody
+    //期望SpringMVC自动将User转换成json格式的字符串
+    public User save10() {
+        User user = new User();
+        user.setUsername("ssx");
+        user.setAge(18);
+
+        return user;
+    }
+
     @RequestMapping(value = "/quick9")
     @ResponseBody
     public String save9() throws JsonProcessingException {
