@@ -35,7 +35,6 @@ public class UserController {
     @ResponseBody
     public void save15(@RequestBody List<User> userList) {
         System.out.println(userList);
-
     }
 
     @RequestMapping(value = "/quick14")
