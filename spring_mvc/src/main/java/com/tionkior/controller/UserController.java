@@ -30,6 +30,11 @@ import java.util.List;
 @RequestMapping("/user")
 public class UserController {
 
+    @RequestMapping("/quick22")
+    public void save22() {
+
+    }
+
     @RequestMapping(value = "/quick21")
     @ResponseBody
     public void save21(@CookieValue(value = "JSESSIONID") String jsessionId) {
