@@ -32,12 +32,24 @@ import java.util.List;
 @RequestMapping("/user")
 public class UserController {
 
+    @RequestMapping("/quick23")
+    public void save23(String username, MultipartFile[] uploadFile) throws IOException {
+        System.out.println(username);
+
+        for (MultipartFile multipartFile : uploadFile) {
+            String originalFilename = multipartFile.getOriginalFilename();
+            multipartFile.transferTo(new File("C:\\upload\\" + originalFilename));
+        }
+    }
+
     @RequestMapping("/quick22")
-    public void save22(String username, MultipartFile uploadFile) throws IOException {
+    public void save22(String username, MultipartFile uploadFile, MultipartFile uploadFile2) throws IOException {
         System.out.println(username);
         //获取上传文件名称
         String originalFilename = uploadFile.getOriginalFilename();
         uploadFile.transferTo(new File("C:\\upload\\" + originalFilename));
+        String originalFilename2 = uploadFile2.getOriginalFilename();
+        uploadFile2.transferTo(new File("C:\\upload\\" + originalFilename2));
     }
 
     @RequestMapping(value = "/quick21")
