@@ -7,6 +7,7 @@ import com.tionkior.domain.VO;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServlet;
@@ -31,8 +32,9 @@ import java.util.List;
 public class UserController {
 
     @RequestMapping("/quick22")
-    public void save22() {
-
+    public void save22(String username, MultipartFile uploadFile) {
+        System.out.println(username);
+        System.out.println(uploadFile);
     }
 
     @RequestMapping(value = "/quick21")
