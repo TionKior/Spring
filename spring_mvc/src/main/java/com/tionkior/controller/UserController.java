@@ -28,6 +28,13 @@ import java.util.List;
 @RequestMapping("/user")
 public class UserController {
 
+    // localhost:8080/user/quick17/zhangsan
+    @RequestMapping(value = "/quick17/{username}")
+    @ResponseBody
+    public void save17(@PathVariable(value = "username") String username) {
+        System.out.println(username);
+    }
+
     @RequestMapping(value = "/quick16")
     @ResponseBody
     public void save16(@RequestParam(value = "name", required = false, defaultValue = "ssx") String username) {
