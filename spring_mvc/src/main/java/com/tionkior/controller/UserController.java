@@ -14,6 +14,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.Date;
@@ -32,9 +33,11 @@ import java.util.List;
 public class UserController {
 
     @RequestMapping("/quick22")
-    public void save22(String username, MultipartFile uploadFile) {
+    public void save22(String username, MultipartFile uploadFile) throws IOException {
         System.out.println(username);
-        System.out.println(uploadFile);
+        //获取上传文件名称
+        String originalFilename = uploadFile.getOriginalFilename();
+        uploadFile.transferTo(new File("C:\\upload\\" + originalFilename));
     }
 
     @RequestMapping(value = "/quick21")
