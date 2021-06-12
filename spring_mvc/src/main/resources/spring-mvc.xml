@@ -30,14 +30,23 @@
         </property>
     </bean>-->
 
-    <!--mvc的注解驱动-->
-    <mvc:annotation-driven/>
 
     <!--开放资源的访问-->
     <!--<mvc:resources mapping="/js/**" location="/js/"/>
     <mvc:resources mapping="/img/**" location="/img/"/>-->
-
     <mvc:default-servlet-handler/>
+
+    <!--mvc的注解驱动-->
+    <mvc:annotation-driven conversion-service="conversionService"/>
+
+    <!--声明转换器-->
+    <bean id="conversionService" class="org.springframework.context.support.ConversionServiceFactoryBean">
+        <property name="converters">
+            <list>
+                <bean class="com.tionkior.converter.DateConverter"/>
+            </list>
+        </property>
+    </bean>
 
 
 </beans>
