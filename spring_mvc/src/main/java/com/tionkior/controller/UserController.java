@@ -35,7 +35,6 @@ public class UserController {
     @RequestMapping("/quick23")
     public void save23(String username, MultipartFile[] uploadFile) throws IOException {
         System.out.println(username);
-
         for (MultipartFile multipartFile : uploadFile) {
             String originalFilename = multipartFile.getOriginalFilename();
             multipartFile.transferTo(new File("C:\\upload\\" + originalFilename));
