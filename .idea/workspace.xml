@@ -4,19 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5c16140-6b69-4b7c-a429-3c437be7f74b" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/spring_ioc_anno/src/main/java/com/tionkior/config/DataSourceConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_ioc_anno/src/main/java/com/tionkior/config/SpringConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_ioc_anno/src/main/java/com/tionkior/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_ioc_anno/src/main/java/com/tionkior/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_ioc_anno/src/main/java/com/tionkior/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_ioc_anno/src/main/java/com/tionkior/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_ioc_anno/src/main/java/com/tionkior/web/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_ioc_anno/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_ioc_anno/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_ioc_anno/src/test/java/com/tionkior/test/DataSourceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_ioc_anno/src/test/java/com/tionkior/test/SpringJunitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_ioc_anno/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_ioc_anno/pom.xml" afterDir="false" />
+    <list default="true" id="e5c16140-6b69-4b7c-a429-3c437be7f74b" name="默认变更列表" comment="feat: Spring练习,Bean的依赖注入">
+      <change afterPath="$PROJECT_DIR$/spring_ioc/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_anno/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_jdbc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_ioc_anno/src/main/java/com/tionkior/config/SpringConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_ioc_anno/src/main/java/com/tionkior/config/SpringConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_mvc/spring_mvc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_mvc/spring_mvc.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +33,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -57,18 +60,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring_ioc" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring_mvc" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.14534885" />
     <property name="project.structure.side.proportion" value="0.17035776" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -140,6 +144,12 @@
       <workItem from="1622849568565" duration="1000000" />
       <workItem from="1622851086426" duration="109000" />
       <workItem from="1622870678407" duration="32000" />
+      <workItem from="1623552009888" duration="29000" />
+      <workItem from="1623552045265" duration="58000" />
+      <workItem from="1623552395594" duration="29000" />
+      <workItem from="1623552641002" duration="5058000" />
+      <workItem from="1623575984454" duration="559000" />
+      <workItem from="1623577128999" duration="1024000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Spring练习">
       <created>1622769486097</created>
