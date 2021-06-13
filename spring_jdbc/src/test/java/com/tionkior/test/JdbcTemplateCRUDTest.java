@@ -29,7 +29,6 @@ public class JdbcTemplateCRUDTest {
     public void testQueryCount() {
         Long count = jdbcTemplate.queryForObject("select count(*) from account", Long.class);
         System.out.println(count);
-
     }
 
     @Test
