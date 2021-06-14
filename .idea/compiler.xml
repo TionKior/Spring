@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring" />
         <module name="spring_mvc" />
+        <module name="spring_test" />
         <module name="spring_jdbc" />
         <module name="Spring" />
         <module name="spring_ioc_anno" />
@@ -19,6 +20,7 @@
       <module name="spring_ioc_anno" target="11" />
       <module name="spring_jdbc" target="11" />
       <module name="spring_mvc" target="11" />
+      <module name="spring_test" target="1.8" />
       <module name="untitled" target="11" />
     </bytecodeTargetLevel>
   </component>
