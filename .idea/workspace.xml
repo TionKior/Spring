@@ -9,7 +9,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5c16140-6b69-4b7c-a429-3c437be7f74b" name="默认变更列表" comment="" />
+    <list default="true" id="e5c16140-6b69-4b7c-a429-3c437be7f74b" name="默认变更列表" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/spring_exception_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/spring_exception_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_exception/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_exception/spring_exception.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_exception/src/main/java/com/tionkior/controller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_exception/src/main/java/com/tionkior/exception/MyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_exception/src/main/java/com/tionkior/service/DemoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_exception/src/main/java/com/tionkior/service/DemoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_exception/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_exception/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_exception/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_exception/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,10 +38,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="spring-beans.schema" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -71,7 +88,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring_test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring_exception/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -84,10 +101,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.tionkior.dao" />
       <recent name="com.tionkior.service" />
+      <recent name="com.tionkior.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\TionKior\Desktop\Spring\spring_exception\src\main\resources" />
       <recent name="C:\Users\TionKior\Desktop\Spring\spring_test\src\main\resources" />
       <recent name="C:\Users\TionKior\Desktop\Spring\spring_test\src\main\java\com\tionkior\domain" />
       <recent name="C:\Users\TionKior\Desktop\Spring\spring_test\src\main\webapp" />
@@ -120,6 +138,19 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -199,6 +230,7 @@
       <workItem from="1623629411614" duration="7288000" />
       <workItem from="1623637984914" duration="55000" />
       <workItem from="1623730636555" duration="4972000" />
+      <workItem from="1623738770864" duration="1363000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Spring练习">
       <created>1622769486097</created>
@@ -291,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623735670547</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="feat: SpringMVC练习,拦截器,快速入门">
+      <created>1623738807922</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1623738807922</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
