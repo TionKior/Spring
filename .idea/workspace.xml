@@ -9,13 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5c16140-6b69-4b7c-a429-3c437be7f74b" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/spring_interceptor/src/main/java/com/tionkior/interceptor/MyInterceptor2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_interceptor/src/main/webapp/error.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_interceptor/src/main/java/com/tionkior/interceptor/MyInterceptor1.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_interceptor/src/main/java/com/tionkior/interceptor/MyInterceptor1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_interceptor/src/main/resources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_interceptor/src/main/resources/spring-mvc.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e5c16140-6b69-4b7c-a429-3c437be7f74b" name="默认变更列表" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -130,17 +124,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SpringTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Spring" />
       <extension name="coverage">
@@ -215,7 +198,7 @@
       <workItem from="1623585331570" duration="53000" />
       <workItem from="1623629411614" duration="7288000" />
       <workItem from="1623637984914" duration="55000" />
-      <workItem from="1623730636555" duration="4916000" />
+      <workItem from="1623730636555" duration="4972000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Spring练习">
       <created>1622769486097</created>
@@ -301,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623733053854</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="feat: SpringMVC练习,拦截器,快速入门">
+      <created>1623735670547</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1623735670547</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
