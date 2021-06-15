@@ -14,30 +14,23 @@ import javax.servlet.http.HttpServletResponse;
  * @Description :
  */
 
-public class MyInterceptor1 implements HandlerInterceptor {
+public class MyInterceptor2 implements HandlerInterceptor {
     // 在目标方法执行之前 执行
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-        System.out.println("preHandle...");
-        String param = request.getParameter("param");
-        if (param.equals("yes")) {
-            return true;
-        } else {
-            request.getRequestDispatcher("/error.jsp").forward(request, response);
-            return false; // 返回true代表放行 返回false代表不放行
-        }
+        System.out.println("preHandle222...");
+        return true;
     }
 
     // 在目标方法执行之后 视图对象返回之前执行
     @Override
     public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) throws Exception {
-        modelAndView.addObject("name", "tionkior");
-        System.out.println("postHandle...");
+        System.out.println("postHandle222...");
     }
 
     // 在整个流程都执行完毕后 执行
     @Override
     public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) throws Exception {
-        System.out.println("afterCompletion...");
+        System.out.println("afterCompletion222...");
     }
 }

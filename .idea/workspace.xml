@@ -10,28 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5c16140-6b69-4b7c-a429-3c437be7f74b" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/spring_interceptor_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/spring_interceptor_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/smartfox_info.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_interceptor/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_interceptor/spring_interceptor.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_interceptor/src/main/java/com/tionkior/controller/TargetController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_interceptor/src/main/java/com/tionkior/interceptor/MyInterceptor1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_interceptor/src/main/resources/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_interceptor/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_interceptor/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_interceptor/src/main/java/com/tionkior/interceptor/MyInterceptor2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_interceptor/src/main/webapp/error.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_interceptor/src/main/java/com/tionkior/interceptor/MyInterceptor1.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_interceptor/src/main/java/com/tionkior/interceptor/MyInterceptor1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_interceptor/src/main/resources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_interceptor/src/main/resources/spring-mvc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +30,7 @@
         <option value="Interface" />
         <option value="spring-beans.schema" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -114,6 +98,9 @@
       <recent name="C:\Users\TionKior\Desktop\Spring\spring_test\src\main\java\com\tionkior\domain" />
       <recent name="C:\Users\TionKior\Desktop\Spring\spring_test\src\main\webapp" />
       <recent name="C:\Users\TionKior\Desktop\Spring\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tionkior.interceptor" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat 服务器.Tomcat 9.0.44">
@@ -228,7 +215,7 @@
       <workItem from="1623585331570" duration="53000" />
       <workItem from="1623629411614" duration="7288000" />
       <workItem from="1623637984914" duration="55000" />
-      <workItem from="1623730636555" duration="2080000" />
+      <workItem from="1623730636555" duration="4916000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Spring练习">
       <created>1622769486097</created>
@@ -307,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623638017699</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="feat: SpringMVC练习,拦截器,快速入门">
+      <created>1623733053854</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1623733053854</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,7 +312,8 @@
     <MESSAGE value="feat: Spring练习,Bean的生命周期" />
     <MESSAGE value="feat: Spring练习,Bean的依赖注入" />
     <MESSAGE value="feat: Spring练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Spring练习" />
+    <MESSAGE value="feat: SpringMVC练习,拦截器,快速入门" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: SpringMVC练习,拦截器,快速入门" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
