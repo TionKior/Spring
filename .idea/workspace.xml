@@ -10,8 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5c16140-6b69-4b7c-a429-3c437be7f74b" name="默认变更列表" comment="">
+      <change afterPath="$PROJECT_DIR$/spring_tx/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_tx/src/main/java/com/tionkior/spring_tx/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_tx/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_tx/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_aop/src/main/java/com/tionkior/anno/MyAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_aop/src/main/java/com/tionkior/anno/MyAspect.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +106,7 @@
       <recent name="com.tionkior.interceptor" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AnnoTest.test1">
+  <component name="RunManager" selected="Tomcat 服务器.Tomcat 9.0.44">
     <configuration name="ProxyTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tionkior.proxy.cglib.ProxyTest" />
       <module name="spring_aop" />
@@ -254,7 +257,7 @@
       <workItem from="1623750324246" duration="133000" />
       <workItem from="1623750926843" duration="1363000" />
       <workItem from="1623752490254" duration="41000" />
-      <workItem from="1623801801509" duration="11728000" />
+      <workItem from="1623801801509" duration="13527000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Spring练习">
       <created>1622769486097</created>
@@ -389,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623813531735</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="feat: Spring练习,AOP,面向切面编程">
+      <created>1623814844926</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1623814844926</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
