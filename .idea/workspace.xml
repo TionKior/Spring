@@ -10,16 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5c16140-6b69-4b7c-a429-3c437be7f74b" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_aop/src/main/java/com/tionkior/aop/MyAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_aop/src/main/java/com/tionkior/aop/Target.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_aop/src/main/java/com/tionkior/aop/TargetInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_aop/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_aop/src/test/java/com/tionkior/test/AopTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/spring_aop_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/spring_aop_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_aop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_aop/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_aop/spring_aop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_aop/spring_aop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_aop/src/main/java/com/tionkior/aop/Target.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_aop/src/main/java/com/tionkior/aop/Target.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_aop/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_aop/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,7 +250,7 @@
       <workItem from="1623750324246" duration="133000" />
       <workItem from="1623750926843" duration="1363000" />
       <workItem from="1623752490254" duration="41000" />
-      <workItem from="1623801801509" duration="8369000" />
+      <workItem from="1623801801509" duration="8692000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Spring练习">
       <created>1622769486097</created>
@@ -372,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623806292316</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="feat: Spring练习,AOP,面向切面编程">
+      <created>1623811179662</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1623811179662</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
