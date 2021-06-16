@@ -10,28 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5c16140-6b69-4b7c-a429-3c437be7f74b" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/spring_aop_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/spring_aop_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_aop/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_aop/spring_aop.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_aop/src/main/java/com/tionkior/proxy/cglib/Advice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_aop/src/main/java/com/tionkior/proxy/cglib/ProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_aop/src/main/java/com/tionkior/proxy/cglib/Target.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_aop/src/main/java/com/tionkior/proxy/jdk/Advice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_aop/src/main/java/com/tionkior/proxy/jdk/ProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_aop/src/main/java/com/tionkior/proxy/jdk/Target.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_aop/src/main/java/com/tionkior/proxy/jdk/TargetInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_aop/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_aop/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_exception/src/main/java/com/tionkior/resolver/MyExceptionResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_exception/src/main/webapp/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_exception/src/main/webapp/error1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_exception/src/main/webapp/error2.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_aop/src/main/java/com/tionkior/aop/MyAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_aop/src/main/java/com/tionkior/aop/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_aop/src/main/java/com/tionkior/aop/TargetInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_aop/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_aop/src/test/java/com/tionkior/test/AopTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/spring_aop_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/spring_aop_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_exception/src/main/resources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_exception/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_aop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_aop/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_aop/spring_aop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_aop/spring_aop.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +83,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring_aop/src/main/java/com/tionkior/proxy/cglib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring_aop/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -112,17 +100,17 @@
       <recent name="com.tionkior.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\TionKior\Desktop\Spring\spring_aop\src\main\resources" />
+      <recent name="C:\Users\TionKior\Desktop\Spring\spring_aop\src\main\java\com\tionkior\aop" />
       <recent name="C:\Users\TionKior\Desktop\Spring\spring_aop\src\main\java\com\tionkior\proxy\cglib" />
       <recent name="C:\Users\TionKior\Desktop\Spring\spring_exception\src\main\webapp" />
       <recent name="C:\Users\TionKior\Desktop\Spring\spring_exception\src\main\resources" />
-      <recent name="C:\Users\TionKior\Desktop\Spring\spring_test\src\main\resources" />
-      <recent name="C:\Users\TionKior\Desktop\Spring\spring_test\src\main\java\com\tionkior\domain" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.tionkior.interceptor" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.ProxyTest (1)">
+  <component name="RunManager" selected="JUnit.AopTest.test1">
     <configuration name="ProxyTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tionkior.proxy.cglib.ProxyTest" />
       <module name="spring_aop" />
@@ -186,8 +174,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring" />
+    <configuration name="AopTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_aop" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.tionkior.test.*" />
@@ -195,7 +183,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.tionkior.test" />
-      <option name="MAIN_CLASS_NAME" value="com.tionkior.test.SpringTest" />
+      <option name="MAIN_CLASS_NAME" value="com.tionkior.test.AopTest" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -224,20 +212,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.SpringTest.test1" />
       <item itemvalue="Tomcat 服务器.Tomcat 9.0.44" />
       <item itemvalue="应用程序.UserController" />
       <item itemvalue="应用程序.UserDaoDemo" />
       <item itemvalue="应用程序.ProxyTest" />
       <item itemvalue="应用程序.ProxyTest (1)" />
+      <item itemvalue="JUnit.AopTest.test1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AopTest.test1" />
         <item itemvalue="应用程序.ProxyTest (1)" />
         <item itemvalue="应用程序.ProxyTest" />
         <item itemvalue="应用程序.UserController" />
         <item itemvalue="应用程序.UserDaoDemo" />
-        <item itemvalue="JUnit.SpringTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -270,7 +258,7 @@
       <workItem from="1623750324246" duration="133000" />
       <workItem from="1623750926843" duration="1363000" />
       <workItem from="1623752490254" duration="41000" />
-      <workItem from="1623801801509" duration="3597000" />
+      <workItem from="1623801801509" duration="8369000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Spring练习">
       <created>1622769486097</created>
@@ -377,7 +365,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623740157599</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="feat: Spring练习,AOP,面向切面编程">
+      <created>1623806292316</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1623806292316</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,7 +386,8 @@
     <MESSAGE value="feat: Spring练习" />
     <MESSAGE value="feat: SpringMVC练习,拦截器,快速入门" />
     <MESSAGE value="feat: SpringMVC练习,异常处理" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: SpringMVC练习,异常处理" />
+    <MESSAGE value="feat: Spring练习,AOP,面向切面编程" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Spring练习,AOP,面向切面编程" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
