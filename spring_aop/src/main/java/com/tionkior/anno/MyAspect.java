@@ -1,8 +1,7 @@
 package com.tionkior.anno;
 
 import org.aspectj.lang.ProceedingJoinPoint;
-import org.aspectj.lang.annotation.Aspect;
-import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.*;
 import org.springframework.stereotype.Component;
 
 /**
@@ -19,7 +18,7 @@ import org.springframework.stereotype.Component;
 public class MyAspect {
 
     // 配置前置增强
-    @Before("execution(* com.tionkior.anno.*.*(..))")
+    //@Before("execution(* com.tionkior.anno.*.*(..))")
     public void before() {
         System.out.println("前置增强...");
     }
@@ -28,6 +27,19 @@ public class MyAspect {
         System.out.println("后置增强...");
     }
 
+
+    public void afterThrowing() {
+        System.out.println("异常抛出增强...");
+    }
+
+    // @After("execution(* com.tionkior.anno.*.*(..))")
+    @After("MyAspect.pointcut()")
+    public void after() {
+        System.out.println("最终增强...");
+    }
+
+    // @Around("execution(* com.tionkior.anno.*.*(..))")\
+    @Around("pointcut()")
     // Proceeding JoinPoint：正在执行的连接点===切点
     public Object around(ProceedingJoinPoint pjp) throws Throwable {
         System.out.println("环绕前增强...");
@@ -36,13 +48,9 @@ public class MyAspect {
         return proceed;
     }
 
-    public void afterThrowing() {
-        System.out.println("异常抛出增强...");
+    // 定义切点表达式
+    @Pointcut("execution(* com.tionkior.anno.*.*(..))")
+    public void pointcut() {
     }
-
-    public void after() {
-        System.out.println("最终增强...");
-    }
-
 
 }
