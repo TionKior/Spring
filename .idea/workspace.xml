@@ -9,14 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5c16140-6b69-4b7c-a429-3c437be7f74b" name="默认变更列表" comment="feat: Spring练习,事务控制">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/spring_tx_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/spring_tx_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/spring_tx_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/spring_tx_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="e5c16140-6b69-4b7c-a429-3c437be7f74b" name="默认变更列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_tx/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_tx/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_tx/spring_tx.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_tx/spring_tx.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_tx/src/main/java/com/tionkior/service/impl/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_tx/src/main/java/com/tionkior/service/impl/AccountServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring_tx/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_tx/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -260,7 +254,7 @@
       <workItem from="1623750324246" duration="133000" />
       <workItem from="1623750926843" duration="1363000" />
       <workItem from="1623752490254" duration="41000" />
-      <workItem from="1623801801509" duration="15689000" />
+      <workItem from="1623801801509" duration="16980000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Spring练习">
       <created>1622769486097</created>
@@ -409,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623818570019</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="feat: Spring练习,事务控制">
+      <created>1623820598502</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1623820598502</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
