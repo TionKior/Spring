@@ -9,9 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5c16140-6b69-4b7c-a429-3c437be7f74b" name="默认变更列表" comment="">
-      <change beforePath="$PROJECT_DIR$/spring_aop/src/main/java/com/tionkior/aop/Target.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_aop/src/main/java/com/tionkior/aop/Target.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_aop/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_aop/src/main/resources/applicationContext.xml" afterDir="false" />
+    <list default="true" id="e5c16140-6b69-4b7c-a429-3c437be7f74b" name="默认变更列表" comment="feat: Spring练习,AOP,面向切面编程">
+      <change afterPath="$PROJECT_DIR$/spring_aop/src/main/java/com/tionkior/anno/MyAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_aop/src/main/java/com/tionkior/anno/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_aop/src/main/java/com/tionkior/anno/TargetInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_aop/src/main/resources/applicationContext-anno.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_aop/src/test/java/com/tionkior/test/AnnoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,12 +97,13 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\TionKior\Desktop\Spring\spring_aop\src\main\resources" />
+      <recent name="C:\Users\TionKior\Desktop\Spring\spring_aop\src\main\java\com\tionkior\anno" />
       <recent name="C:\Users\TionKior\Desktop\Spring\spring_aop\src\main\java\com\tionkior\aop" />
       <recent name="C:\Users\TionKior\Desktop\Spring\spring_aop\src\main\java\com\tionkior\proxy\cglib" />
       <recent name="C:\Users\TionKior\Desktop\Spring\spring_exception\src\main\webapp" />
-      <recent name="C:\Users\TionKior\Desktop\Spring\spring_exception\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tionkior.test" />
       <recent name="com.tionkior.interceptor" />
     </key>
   </component>
@@ -250,7 +255,7 @@
       <workItem from="1623750324246" duration="133000" />
       <workItem from="1623750926843" duration="1363000" />
       <workItem from="1623752490254" duration="41000" />
-      <workItem from="1623801801509" duration="8692000" />
+      <workItem from="1623801801509" duration="10517000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Spring练习">
       <created>1622769486097</created>
@@ -371,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623811179662</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="feat: Spring练习,AOP,面向切面编程">
+      <created>1623811740491</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1623811740491</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
