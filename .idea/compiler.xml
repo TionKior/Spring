@@ -27,7 +27,7 @@
       <module name="spring_jdbc" target="11" />
       <module name="spring_mvc" target="11" />
       <module name="spring_test" target="1.8" />
-      <module name="spring_tx" target="1.5" />
+      <module name="spring_tx" target="1.8" />
       <module name="untitled" target="11" />
     </bytecodeTargetLevel>
   </component>
