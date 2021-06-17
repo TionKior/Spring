@@ -10,8 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5c16140-6b69-4b7c-a429-3c437be7f74b" name="默认变更列表" comment="">
+      <change afterPath="$PROJECT_DIR$/mybatis_quick/src/main/resources/jdbc.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis_quick/src/main/resources/com/tionkior/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_quick/src/main/resources/com/tionkior/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_quick/src/main/resources/sqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_quick/src/main/resources/sqlMapConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis_quick/src/test/java/com/tionkior/test/MyBatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_quick/src/test/java/com/tionkior/test/MyBatisTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,28 +106,13 @@
       <recent name="com.tionkior.interceptor" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyBatisTest.test4">
+  <component name="RunManager" selected="JUnit.MyBatisTest.test5">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyBatisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis_quick" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tionkior.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.tionkior.test" />
-      <option name="MAIN_CLASS_NAME" value="com.tionkior.test.MyBatisTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -195,6 +182,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyBatisTest.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_quick" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tionkior.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tionkior.test" />
+      <option name="MAIN_CLASS_NAME" value="com.tionkior.test.MyBatisTest" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 9.0.44" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.44" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
         <artifact name="Spring:war exploded">
@@ -219,18 +222,18 @@
     <list>
       <item itemvalue="Tomcat 服务器.Tomcat 9.0.44" />
       <item itemvalue="JUnit.MyBatisTest.test1" />
-      <item itemvalue="JUnit.MyBatisTest" />
       <item itemvalue="JUnit.MyBatisTest.test2" />
       <item itemvalue="JUnit.MyBatisTest.test3" />
       <item itemvalue="JUnit.MyBatisTest.test4" />
+      <item itemvalue="JUnit.MyBatisTest.test5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyBatisTest.test5" />
+        <item itemvalue="JUnit.MyBatisTest.test2" />
+        <item itemvalue="JUnit.MyBatisTest.test1" />
         <item itemvalue="JUnit.MyBatisTest.test4" />
         <item itemvalue="JUnit.MyBatisTest.test3" />
-        <item itemvalue="JUnit.MyBatisTest.test2" />
-        <item itemvalue="JUnit.MyBatisTest" />
-        <item itemvalue="JUnit.MyBatisTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +270,7 @@
       <workItem from="1623826331005" duration="80000" />
       <workItem from="1623828191680" duration="2703000" />
       <workItem from="1623833830399" duration="67000" />
-      <workItem from="1623888866848" duration="8438000" />
+      <workItem from="1623888866848" duration="12407000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Spring练习">
       <created>1622769486097</created>
@@ -458,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623897866613</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="feat: MyBatis练习,删除操作">
+      <created>1623898646654</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1623898646654</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -477,7 +487,8 @@
     <MESSAGE value="feat: MyBatis练习" />
     <MESSAGE value="feat: MyBatis练习,快速入门" />
     <MESSAGE value="feat: MyBatis练习,更新操作" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: MyBatis练习,更新操作" />
+    <MESSAGE value="feat: MyBatis练习,删除操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: MyBatis练习,删除操作" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">

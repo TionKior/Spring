@@ -26,9 +26,16 @@
     </insert>
 
     <!--查询操作-->
-    <select id="findAll" resultType="com.tionkior.domain.User">
+    <select id="findAll" resultType="user">
         select *
         from user
+    </select>
+
+    <!--根据id进行查询-->
+    <select id="findById" resultType="user" parameterType="int">
+        select *
+        from user
+        where id = #{id}
     </select>
 
 </mapper>
