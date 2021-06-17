@@ -3,6 +3,21 @@
 
 <mapper namespace="userMapper">
 
+    <!--修改操作-->
+    <update id="update" parameterType="com.tionkior.domain.User">
+        update user
+        set username=#{username},
+            password=#{password}
+        where id = #{id}
+    </update>
+
+    <!--插入操作-->
+    <insert id="save" parameterType="com.tionkior.domain.User">
+        insert into user
+        values (#{id}, #{username}, #{password})
+    </insert>
+
+    <!--查询操作-->
     <select id="findAll" resultType="com.tionkior.domain.User">
         select *
         from user

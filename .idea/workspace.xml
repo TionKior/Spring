@@ -10,18 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5c16140-6b69-4b7c-a429-3c437be7f74b" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/mybatis_quick_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/mybatis_quick_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_quick/mybatis_quick.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_quick/src/main/java/com/tionkior/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_quick/src/main/resources/com/tionkior/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_quick/src/main/resources/sqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_quick/src/test/java/com/tionkior/test/MyBatisTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_quick/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_quick/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_quick/src/main/java/com/tionkior/mybatis_quick/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_quick/src/main/resources/com/tionkior/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_quick/src/main/resources/com/tionkior/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_quick/src/test/java/com/tionkior/test/MyBatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_quick/src/test/java/com/tionkior/test/MyBatisTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +104,7 @@
       <recent name="com.tionkior.interceptor" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyBatisTest">
+  <component name="RunManager" selected="JUnit.MyBatisTest.test3">
     <configuration name="AccountController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tionkior.controller.AccountController" />
       <module name="spring_tx" />
@@ -134,38 +125,6 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AnnoTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_aop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tionkior.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.tionkior.test" />
-      <option name="MAIN_CLASS_NAME" value="com.tionkior.test.AnnoTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AopTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_aop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tionkior.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.tionkior.test" />
-      <option name="MAIN_CLASS_NAME" value="com.tionkior.test.AopTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -201,6 +160,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyBatisTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_quick" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tionkior.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tionkior.test" />
+      <option name="MAIN_CLASS_NAME" value="com.tionkior.test.MyBatisTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_quick" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tionkior.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tionkior.test" />
+      <option name="MAIN_CLASS_NAME" value="com.tionkior.test.MyBatisTest" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 9.0.44" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.44" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
         <artifact name="Spring:war exploded">
@@ -223,20 +214,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.AopTest.test1" />
-      <item itemvalue="JUnit.AnnoTest.test1" />
       <item itemvalue="Tomcat 服务器.Tomcat 9.0.44" />
       <item itemvalue="应用程序.AccountController" />
       <item itemvalue="JUnit.MyBatisTest.test1" />
       <item itemvalue="JUnit.MyBatisTest" />
+      <item itemvalue="JUnit.MyBatisTest.test2" />
+      <item itemvalue="JUnit.MyBatisTest.test3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyBatisTest.test3" />
+        <item itemvalue="JUnit.MyBatisTest.test2" />
         <item itemvalue="JUnit.MyBatisTest" />
         <item itemvalue="JUnit.MyBatisTest.test1" />
         <item itemvalue="应用程序.AccountController" />
-        <item itemvalue="JUnit.AnnoTest.test1" />
-        <item itemvalue="JUnit.AopTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +264,7 @@
       <workItem from="1623826331005" duration="80000" />
       <workItem from="1623828191680" duration="2703000" />
       <workItem from="1623833830399" duration="67000" />
-      <workItem from="1623888866848" duration="3710000" />
+      <workItem from="1623888866848" duration="7573000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Spring练习">
       <created>1622769486097</created>
@@ -450,7 +441,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623891131621</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="feat: MyBatis练习,快速入门">
+      <created>1623893305680</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1623893305680</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,7 +465,8 @@
     <MESSAGE value="feat: Spring练习,AOP,面向切面编程" />
     <MESSAGE value="feat: Spring练习,事务控制" />
     <MESSAGE value="feat: MyBatis练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: MyBatis练习" />
+    <MESSAGE value="feat: MyBatis练习,快速入门" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: MyBatis练习,快速入门" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
