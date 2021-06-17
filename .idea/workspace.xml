@@ -9,13 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5c16140-6b69-4b7c-a429-3c437be7f74b" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/mybatis_quick/src/main/resources/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_quick/src/main/resources/com/tionkior/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_quick/src/main/resources/com/tionkior/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_quick/src/main/resources/sqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_quick/src/main/resources/sqlMapConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_quick/src/test/java/com/tionkior/test/MyBatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_quick/src/test/java/com/tionkior/test/MyBatisTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="e5c16140-6b69-4b7c-a429-3c437be7f74b" name="默认变更列表" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -270,7 +264,7 @@
       <workItem from="1623826331005" duration="80000" />
       <workItem from="1623828191680" duration="2703000" />
       <workItem from="1623833830399" duration="67000" />
-      <workItem from="1623888866848" duration="12407000" />
+      <workItem from="1623888866848" duration="12765000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Spring练习">
       <created>1622769486097</created>
@@ -468,7 +462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623898646654</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="feat: MyBatis练习,删除操作">
+      <created>1623903641734</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1623903641734</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
