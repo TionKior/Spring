@@ -3,6 +3,14 @@
 
 <mapper namespace="userMapper">
 
+    <!--删除操作-->
+    <delete id="delete" parameterType="java.lang.Integer">
+        delete
+        from user
+        where id = #{id}
+    </delete>
+
+
     <!--修改操作-->
     <update id="update" parameterType="com.tionkior.domain.User">
         update user

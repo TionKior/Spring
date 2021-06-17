@@ -22,6 +22,26 @@ import java.util.List;
 public class MyBatisTest {
 
     @Test
+    // 删除操作
+    public void test4() throws IOException {
+
+        // 获得核心配置文件
+        InputStream resourceAsStream = Resources.getResourceAsStream("sqlMapConfig.xml");
+        // 获得session工厂对象
+        SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(resourceAsStream);
+        // 获得session会话对象
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+        // 执行操作 参数：namespace+id
+        sqlSession.delete("userMapper.delete", 7);
+
+        // mybatis执行更新操作 提交事务
+        sqlSession.commit();
+
+        // 释放资源
+        sqlSession.close();
+    }
+
+    @Test
     // 修改操作
     public void test3() throws IOException {
 
