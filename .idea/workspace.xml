@@ -10,24 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5c16140-6b69-4b7c-a429-3c437be7f74b" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/spring_tx_anno_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/spring_tx_anno_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_tx_anno/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_tx_anno/spring_tx_anno.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_tx_anno/src/main/java/com/tionkior/controller/AccountController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_tx_anno/src/main/java/com/tionkior/dao/AccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_tx_anno/src/main/java/com/tionkior/dao/impl/AccountDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_tx_anno/src/main/java/com/tionkior/domain/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_tx_anno/src/main/java/com/tionkior/service/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_tx_anno/src/main/java/com/tionkior/service/impl/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_tx_anno/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_tx_anno/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_tx_anno/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_quick/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_quick/src/main/java/com/tionkior/mybatis_quick/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_quick/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_quick/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_tx/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_tx/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,6 +247,10 @@
       <workItem from="1623750926843" duration="1363000" />
       <workItem from="1623752490254" duration="41000" />
       <workItem from="1623801801509" duration="19019000" />
+      <workItem from="1623826331005" duration="80000" />
+      <workItem from="1623828191680" duration="2703000" />
+      <workItem from="1623833830399" duration="67000" />
+      <workItem from="1623888866848" duration="1722000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Spring练习">
       <created>1622769486097</created>
@@ -422,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623822090095</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="feat: Spring练习,事务控制">
+      <created>1623826366418</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1623826366418</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

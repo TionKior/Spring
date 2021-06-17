@@ -10,6 +10,7 @@
         <module name="spring_jdbc" />
         <module name="spring_tx_anno" />
         <module name="spring_tx" />
+        <module name="mybatis_quick" />
         <module name="spring_mvc" />
         <module name="Spring" />
         <module name="spring_exception" />
@@ -19,6 +20,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="mybatis_quick" target="1.8" />
       <module name="Spring" target="11" />
       <module name="spring_anno" target="11" />
       <module name="spring_aop" target="1.8" />
