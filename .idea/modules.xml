@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/spring_ioc/Spring.iml" filepath="$PROJECT_DIR$/spring_ioc/Spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis_config/mybatis_config.iml" filepath="$PROJECT_DIR$/mybatis_config/mybatis_config.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis_dao/mybatis_dao.iml" filepath="$PROJECT_DIR$/mybatis_dao/mybatis_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis_mapper/mybatis_mapper.iml" filepath="$PROJECT_DIR$/mybatis_mapper/mybatis_mapper.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis_quick/mybatis_quick.iml" filepath="$PROJECT_DIR$/mybatis_quick/mybatis_quick.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_aop/spring_aop.iml" filepath="$PROJECT_DIR$/spring_aop/spring_aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_exception/spring_exception.iml" filepath="$PROJECT_DIR$/spring_exception/spring_exception.iml" />
