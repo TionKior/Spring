@@ -12,6 +12,7 @@
         <module name="spring_tx" />
         <module name="mybatis_quick" />
         <module name="spring_mvc" />
+        <module name="mybatis_dao" />
         <module name="Spring" />
         <module name="spring_exception" />
         <module name="spring_ioc_anno" />
@@ -20,6 +21,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="mybatis_dao" target="1.8" />
       <module name="mybatis_quick" target="1.8" />
       <module name="Spring" target="11" />
       <module name="spring_anno" target="11" />
