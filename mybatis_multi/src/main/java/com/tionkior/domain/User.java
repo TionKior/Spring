@@ -1,6 +1,7 @@
 package com.tionkior.domain;
 
 import java.util.Date;
+import java.util.List;
 
 /**
  * @ClassName : User
@@ -15,6 +16,17 @@ public class User {
     private int id;
     private String username;
     private String password;
+
+    // 描述的是当前用户存在哪些订单
+    private List<Order> orderList;
+
+    public List<Order> getOrderList() {
+        return orderList;
+    }
+
+    public void setOrderList(List<Order> orderList) {
+        this.orderList = orderList;
+    }
 
     public Date getBirthday() {
         return birthday;
@@ -56,6 +68,8 @@ public class User {
                 "id=" + id +
                 ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
+                ", orderList=" + orderList +
+                ", birthday=" + birthday +
                 '}';
     }
 }

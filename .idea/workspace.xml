@@ -10,11 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5c16140-6b69-4b7c-a429-3c437be7f74b" name="默认变更列表" comment="">
+      <change afterPath="$PROJECT_DIR$/mybatis_multi/src/test/java/com/tionkior/test/MybatisTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_multi/src/main/java/com/tionkior/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_multi/src/main/java/com/tionkior/domain/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis_multi/src/main/java/com/tionkior/mapper/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_multi/src/main/java/com/tionkior/mapper/OrderMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_multi/src/main/java/com/tionkior/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_multi/src/main/java/com/tionkior/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_multi/src/main/resources/com/tionkior/mapper/OrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_multi/src/main/resources/com/tionkior/mapper/OrderMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_multi/src/main/resources/sqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_multi/src/main/resources/sqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_multi/src/main/resources/com/tionkior/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_multi/src/main/resources/com/tionkior/mapper/UserMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +29,8 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="Jsp File" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -297,7 +297,7 @@
       <workItem from="1624017413624" duration="67000" />
       <workItem from="1624018464390" duration="60000" />
       <workItem from="1624019598336" duration="14000" />
-      <workItem from="1624061376994" duration="3045000" />
+      <workItem from="1624061376994" duration="4881000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Spring练习">
       <created>1622769486097</created>
@@ -544,7 +544,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624062488996</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="feat: MyBatis练习,多表查询">
+      <created>1624064458821</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1624064458821</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
