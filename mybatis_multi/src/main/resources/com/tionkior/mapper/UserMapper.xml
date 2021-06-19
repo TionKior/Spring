@@ -51,5 +51,4 @@
           and ur.roleId = r.id
     </select>
 
-
 </mapper>
