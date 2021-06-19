@@ -9,8 +9,6 @@
     <!--定义别名-->
     <typeAliases>
         <typeAlias type="com.tionkior.domain.User" alias="user"/>
-        <typeAlias type="com.tionkior.domain.Order" alias="order"/>
-        <typeAlias type="com.tionkior.domain.Role" alias="role"/>
     </typeAliases>
 
     <!--数据源环境-->
@@ -26,10 +24,10 @@
         </environment>
     </environments>
 
-    <!--加载映射文件-->
+    <!--加载映射关系-->
     <mappers>
-        <mapper resource="com/tionkior/mapper/UserMapper.xml"/>
-        <mapper resource="com/tionkior/mapper/OrderMapper.xml"/>
+        <!--指定接口所在的包-->
+        <package name="com.tionkior.mapper"/>
     </mappers>
 
 </configuration>

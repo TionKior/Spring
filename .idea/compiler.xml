@@ -17,6 +17,7 @@
         <module name="mybatis_multi" />
         <module name="mybatis_quick" />
         <module name="spring_mvc" />
+        <module name="mybatis_anno" />
         <module name="mybatis_dao" />
         <module name="mybatis_config" />
         <module name="spring_interceptor" />
@@ -24,6 +25,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="mybatis_anno" target="1.8" />
       <module name="mybatis_config" target="1.8" />
       <module name="mybatis_dao" target="1.8" />
       <module name="mybatis_mapper" target="1.8" />
