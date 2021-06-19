@@ -1,14 +1,12 @@
 package com.tionkior.mapper;
 
-/**
- * @ClassName : UserMapper
- * @Author : TionKior
- * @Date : 2021/6/19 8:17
- * @Version : V1.0
- * @Description :
- */
+import com.tionkior.domain.User;
 
-public class UserMapper {
+import java.util.List;
+
+public interface UserMapper {
+
+    List<User> findAll();
 
 
 }
