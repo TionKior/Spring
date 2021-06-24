@@ -29,5 +29,4 @@
         <mapper resource="com/tionkior/mapper/UserMapper.xml"/>
     </mappers>
 
-
 </configuration>

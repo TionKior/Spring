@@ -22,7 +22,7 @@
     <!--插入操作-->
     <insert id="save" parameterType="com.tionkior.domain.User">
         insert into user
-        values (#{id}, #{username}, #{password})
+        values (#{username}, #{password})
     </insert>
 
     <!--查询操作-->
